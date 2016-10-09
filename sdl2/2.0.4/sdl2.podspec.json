@@ -15,7 +15,7 @@
   "source": {
     "http": "https://www.libsdl.org/release/SDL2-2.0.4.zip"
   },
-  "requires_arc": true,
+  "requires_arc": false,
   "platforms": {
     "ios": "5.1",
     "osx": "10.11"
