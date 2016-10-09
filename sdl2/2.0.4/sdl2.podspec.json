@@ -17,7 +17,8 @@
   },
   "requires_arc": true,
   "platforms": {
-    "ios": "5.1"
+    "ios": "5.1",
+    "osx": "10.11"
   },
   "prepare_command": "mv SDL2-2.0.4/* .",
   "source_files": [
