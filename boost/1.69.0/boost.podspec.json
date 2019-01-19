@@ -106,6 +106,19 @@
         "libs/filesystem/src/path.cpp",
         "libs/filesystem/src/operations.cpp",
         "libs/filesystem/src/codecvt_error_category.cpp"
+      ],
+      "preserve_paths": [
+        "boost/*.h",
+        "boost/predef/**/*.h",
+        "boost/*.hpp",
+        "boost/math/**/*.hpp",
+        "boost/config/**/*.hpp",
+        "boost/detail/*.hpp",
+        "boost/detail/*.ipp",
+        "boost/utility/*.hpp",
+        "boost/mpl/**/*.hpp",
+        "boost/type_traits/**/*.hpp",
+        "boost/accumulators/**/*.hpp"
       ]
     }
   ]
