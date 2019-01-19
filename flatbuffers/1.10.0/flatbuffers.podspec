@@ -10,5 +10,7 @@ Pod::Spec.new do |spec|
   spec.prepare_command = 'mv flatbuffers-1.10.0/* .'
   spec.source_files = 'include/flatbuffers/*.h', 'src/**/*.{c,cpp,h,m}'
   spec.exclude_files = 'src/flatc_main.cpp'
+  
+  spec.osx.deployment_target = '10.11'
 end
   
