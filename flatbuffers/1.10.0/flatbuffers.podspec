@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'src' do |src|
     src.subspec 'compiler' do |compiler|
+      compiler.header_mappings_dir = 'grpc'
       compiler.source_files = 'grpc/src/**/*.{c,cpp,h,m}'
     end
   end
