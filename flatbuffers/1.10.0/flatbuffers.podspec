@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   
   spec.osx.deployment_target = '10.11'
   
-  spec.subspec 'compiler' do |ss|
+  spec.subspec 'src/compiler' do |ss|
     ss.source_files = 'grpc/src/**/*.{c,cpp,h,m}'
   end
 end
