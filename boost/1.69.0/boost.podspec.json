@@ -9,7 +9,7 @@
   },
   "authors": "Rene Rivera",
   "source": {
-    "http": "https://github.com/boostorg/boost/archive/boost-1.69.0.zip"
+    "http": "https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.zip"
   },
   "platforms": {
     "ios": "4.0",
