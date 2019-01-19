@@ -118,7 +118,8 @@
         "boost/utility/*.hpp",
         "boost/mpl/**/*.hpp",
         "boost/type_traits/**/*.hpp",
-        "boost/accumulators/**/*.hpp"
+        "boost/accumulators/**/*.hpp",
+        "boost/container_hash/**/*.hpp"
       ]
     }
   ]
