@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.osx.private_header_files = 'src/video/cocoa/SDL_*.h'
 
   spec.xcconfig = {}
-  spec.compiler_flags = '-I${PODS_ROOT}/src/libm'
+  spec.compiler_flags = '-I${PODS_ROOT}/src/libm -DSDL_VIDEO_OPENGL_EGL=0'
   
   spec.osx.frameworks = 'CoreAudio', 'AudioToolbox', 'GameController', 'OpenGL'
   spec.ios.frameworks = 'CoreAudio', 'AudioToolbox', 'GameController', 'CoreMotion'
